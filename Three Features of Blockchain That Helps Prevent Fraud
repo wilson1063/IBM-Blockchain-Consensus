@@ -1,0 +1,38 @@
+://www.ibm.com/blogs/blockchain/2017/09/three-features-of-blockchain-that-help-prevent-fraud/
+
+September 19, 2017 | Written by: Ross Mauri
+Categorized: Blockchain Explained | Blockchain Identity | Identity Management
+Share this post:
+ 
+The typical organization loses five percent of revenues to fraud each year, according to a study by the Association of Certified Fraud Examiners. Unfortunately, fraud in a business can go undetected for a long time and is often hard to uncover. The following three features of blockchain can help make business networks less susceptible to fraud.
+Blockchain is distributed
+A blockchain is a type of distributed digital ledger containing transaction data that is shared across a peer-to-peer network and continually reconciled. There is no central administrator or centralized version, so there is no single point of failure. Instead, management and authorization is spread across the network, so there is no obvious place for someone to instigate a fraud scheme.
+There are several methods fraudsters use to conceal their criminal activities, including altering or deleting information in a company’s accounting systems, changing electronic or paper documents and creating fraudulent files. Using a shared digital ledger can help reduce fraud because it increases the visibility and transparency of the transactions made throughout a supply chain and between members of a business network. Participants can see the history and transfer of assets, so fraudulent transactions are easier to identify. Plus, to tamper with the transaction records on a blockchain, an individual or group of individuals in collusion would have to control a majority of the system.
+Read this in-depth guide to learn more about distributed ledger technology.
+Learn more about blockchain for digital identity
+Blockchain is immutable
+Transactions recorded on blockchain are immutable because they cannot be deleted or changed. Before a “block” of transactions can be appended to the blockchain, network participants must agree the transaction is valid through a process called consensus. The block is then given a timestamp, secured through cryptography and linked to the previous block in the chain. Though you can create a new transaction to change the state of an asset, it will simply be added to the chain, and the original record will still be accessible. So, by using blockchain you can see the provenance of an asset, including where it came from, where it’s been, and who’s had ownership of it.
+Counterfeiting is a global problem that affects a wide range of industries such as luxury goods, clothing, food products, pharmaceuticals and more. Proving or disproving the authenticity and quality of an asset can be a challenge because traditional supply chains are long, complex and lack transparency. However, if a producer or manufacturer’s goods are placed on blockchain, those goods will have provenance due to their immutable transaction history, and that will make it difficult to pass off fake products as real.
+Watch this video to learn how blockchain helps reduce fraud in the diamond industry.
+
+Blockchain can be permissioned
+Businesses deal with a lot of confidential data; they can’t let just anyone have access to it. There must be some way to ensure outsiders can’t get in to the network and insiders can’t corrupt the records. This is where permissions come into play. But unlike the previous features I’ve discussed, not all blockchain networks are permissioned. However, permissioned networks can be great for fraud prevention because they restrict who is allowed to participate and in what capacity. Members of a permissioned network must be invited and validated before they can contribute.
+Controlling access and identity management are key in a permissioned network. With Hyperledger Fabric, a blockchain implementation framework hosted by the Linux Foundation, participants are issued cryptographic membership cards to represent their identity. That membership card grants access to see the transactions that pertain to them. However, even credentialed users can’t add to the blockchain without consensus, and no one can tamper with records on the blockchain because they are encrypted. Without a way to hide their tracks, fraudsters have a much higher chance of getting caught.
+Blockchain against fraud
+As one of the top operational risks of 2017, fraud isn’t a problem you can ignore. In addition to being costly, it can decrease employee morale and create an unstable business environment as well as undermine your business and consumer relationships. Use blockchain to take a stand against fraud in your business network. Explore IBM Blockchain and the new IBM Blockchain Platform to see how you can get started.
+ 
+If you’re interested in learning how blockchain is being used to prevent fraud in real industries, check out my previous blog post, where I discuss use cases in financial transactions, identity and supply chain.
+Learn more about blockchain today
+ 
+Ross Mauri
+General Manager, z Systems - IBM Systems
+blockchain blockchain fraud prevention blockchain security distributed ledger hyperledger fabric IBM Blockchain IBM Blockchain Platform identity management immutable transaction history linux foundation permissioned blockchain permissioned network prevent fraud Ross Mauri
+Previous Post
+I'll only eat blockchain cereal with a food safety label on the box
+Next Post
+Five potential blockchain project pitfalls — and how to avoid them!
+ 
+
+
+Three features of block
+Three features o that help prevent fraud
