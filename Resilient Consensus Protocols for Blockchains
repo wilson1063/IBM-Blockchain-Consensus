@@ -1,0 +1,33 @@
+://www.ibm.com/blogs/research/2017/10/resilient-consensus-protocols-blockchains/
+
+October 18, 2017
+Posted in: Blockchain, IBM Research-Zurich
+Resilient Consensus Protocols for Blockchains
+ 
+Contributing to the discussion: Christian Cachin at the International Symposium on Distributed Computing.
+On the heels of the exciting blockchain news coming from SIBOS, in Vienna this week the 31stInternational Symposium on Distributed Computingtook place, which also hosted a workshop entitled “Blockchain Technology and Theory”.  Researchers and practitioners from academia and industry working in distributed systems, cryptography, and security gathered there to discuss and exchanged their ideas on current blockchain and distributed protocol issues.
+One hot topic was consensus protocols for blockchains. Among blockchain experts, consensus protocols for tolerating ‘Byzantine faults’ have recently received renewed attentions as they also impact blockchain systems. Christian Cachin, IBM researcher in Zurich, contributed to the discussion by presenting the advantages of the Hyperledger Fabric V1 and comparing its approach to consensus with that of other prominent permissioned blockchain platforms with respect to their fault models and level of resilience.
+In the following interview, Christian gives us the highlights of the research he and Marko Vukolić are working on.
+In laymen’s terms, how would you define blockchain?
+A blockchain is a decentralized virtual ledger for recording transactions without central authority through a distributed cryptographic protocol. It is made up of three technologies – cryptographic algorithms, a distributed protocol, and replicated data – which combined provide a trustworthy service to a group of nodes that do not fully trust each other. With blockchain, several users can write entries into a block or a record of information, and a community can control how the record of information is modified and updated.
+What is blockchain consensus?
+There are two types: public and permissioned. In a public blockchain, such as Bitcoin or Ethereum, anyone can join or run a node and anyone can participate in the consensus process for determining what’s called the ‘valid’ state. In contrast, a permissioned blockchain is operated by known entities, such as consortium blockchains, where a specific group of stakeholders in a given context run a permissioned blockchain network. My research focuses on the latter.
+Can you say more about permissioned blockchains – what’s special about them?
+Permissioned blockchain systems have the means to identify the nodes that can control and update the shared state of a ledger, and often also have ways to control who can issue transactions. Such systems have to cope with many of the problems in distributed computing, particularly with regards to developing Byzantine fault-tolerant systems that must be immune to bad nodes generating arbitrary data.
+How are we to understand consensus protocols and why did you find it necessary to assess and compare them in some of the more prominent permissioned blockchain platforms?
+A consensus protocol ensures that the involved nodes agree on a unique order in which entries to the ledger are appended. Currently, many new features and completely new blockchain protocols for distributed ledgers are emerging, mainly within the fintech and startup scene. Most of these proposals come without a clearly stated trust assumption or a solid security model, despite the bold claims being made. Moreover, there is no agreed consensus in the industry on which assumptions are realistic for an intended application, nor is there an accepted standard for the validation for protocols. Our aim in comparing various permissioned blockchains was to evaluate the resilience of consensus protocols exposed to faults and adversarial nodes and to highlight the need for broad, public validation.
+According to your assessment, Hyperledger Fabric V1 goes beyond other blockchain platforms in many ways. Can you explain?
+Hyperledger Fabric V1, which is being developed open-source as part of the Hyperledger project, is a modular blockchain operating system for running a distributed ledger among a consortium. Previous permissioned blockchain networks that require every peer to execute every transaction, maintain a ledger and run a consensus cannot scale very well. Moreover, they do not support private transactions and confidential contracts well. Hyperledger Fabric V1 was designed to deliver a modular foundation for business blockchain solutions that support performance scalability, confidentiality for data, and non-deterministic execution of smart contracts.
+What do you mean by modular?
+It means that every deployment can be tailored to a specific trust model, as Hyperledger Fabric allows components, such as consensus and membership services, to be plug-and-play. Essentially, peers are divided into separate runtimes with three distinct roles: endorser, committer and consenter. Smart contracts are tailored so that they are endorsed by the relevant peers. With such a modular architecture specialized confidential obligations can be managed without passing everything though a central authority. Crash-tolerant and Byzantine-fault-tolerant consensus protocol implementations also exist.
+How do you think we could achieve more resilient and trustworthy protocols?
+Given my past work in cryptography, I see a lot of parallels with blockchain protocols. To put it bluntly – good cryptography looks just like bad cryptography. It’s difficult to see whether something is also secure. So, it’s crucial to establish broad agreement not just on protocol goals, but also on trust assumptions, security models and formal reasoning methods in order to accept a cryptosystem as secure. The same is true for blockchain consensus. Developers, investors and practitioners in the industry should rely more on scientific methodology in cryptography and security when it comes to building trustworthy systems before entrusting financial value to new protocols. And more importantly, public discussion, expert review and broad validation of standards should have precedence over the hype.
+ 
+ 
+christian cachin@cczurich
+ 
+ 
+ 
+Blockchain Technology & Theory, Vienna, 16.Oct, program is up, http://blockchain-workshop.net  #Blockchain #Consensus #Hyperledger #IBMBlockchain
+1:42 PM - Oct 1, 2017
+ 
