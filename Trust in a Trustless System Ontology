@@ -1,0 +1,118 @@
+//hackernoon.com/trust-in-a-trustless-system-how-ontology-could-bring-big-business-to-blockchain-fd73260ffee9
+
+Trust In A Trustless System? How Ontology Could Bring Big Business To Blockchain
+Businesses Looking to Adopt Blockchain Face Immense Challenges — Ontology Provides a Solution
+Ontology aims to build a bridge between the real world and distributed data systems. The Ontology team understands that for enterprises and companies to enter the world of DLT, they need to have an ecosystem that supports choice. Different businesses need different consensus models, different governance protocols, and different supportive applications. Ontology enables all of these.
+Ontology is made for business. Imagine Ontology as this multilayered network. On the lowest level, Ontology’s blockchain connects with other large scale blockchain platforms (they already support the NEO Virtual Machine), like EOS, Ethereum, and QTUM. This enables companies to trade and store digital assets on NEO, interact with Ethereum dApps, and connect to other blockchain networks. The next level of Ontology is a series of pre-made APIs and protocols. These are the bricks. Companies and application developers without blockchain knowledge can build private, customizable blockchains with Ontology’s protocol kits. The final layer are the companies, the corporations, the institutions, and the organizations that desire blockchain solutions, but in a permissioned and controllable manner.
+I think of Ontology as similar to a consultant firm. Just as companies hire consultants to overhaul their bureaucracy, Ontology provides the connections, means, development, and knowledge to bring companies into the world of DLT.
+
+OnChain
+Ontology, though connected to NEO, is not a NEO project. Ontology was developed by a company called Onchain. I’m quoting from my previousarticle:
+NEO’s founders Da HongFei and Erik Zhang founded a company called Onchain. Understanding Onchain is critical to understanding NEO. They’re not the same company, but their interests align. Onchain’s system, known as DNA (Decentralized Network Architecture) aims to work with Chinese businesses and government. NEO acts as the foundation of DNA. If Onchain can integrate with Chinese businesses and government, that will greatly spur adoption of NEO.
+Ultimately, Ontology is an implementation of DNA — developing public and private blockchains for businesses.These blockchains then link up to NEO to join the decentralized economy. Businesses then have all the benefits of both private and public blockchains. It’s important to recognize that Ontology is not a new development; Onchain has been developing Ontology in secret before releasing details to the public. Despite it being in its pre fundraising phase, Ontology is already a mature project.
+A summary of the connections and reputation that Onchain has:
+Established in 2014, this is not a fresh-off-the-shelf company
+First Chinese blockchain company to join Hyperledger — a collaboration of projects that work towards integrating blockchain with established businesses.
+Law Chain — works with Microsoft China in digitizing and securing signatures via blockchain technology.
+Strategic partner of Microsoft China on multiple projects
+Worked with the Japanese Ministry of Economy, Trade and Industry
+Voted as one of KPMG’s top 50 Fintech Companies in China
+Partnership with Alibaba to provide an email certification service for Ali Cloud
+Investment from Fosun Group — China’s largest private conglomerate — to integrate Onchain across their businesses.
+Collaboration with Chinese regional government — using Onchain to develop public services and digital identity
+Selected by Microsoft to be a part of their 6 month startup accelerator program.
+NEO
+NEO is not directly linked to Ontology. However, for NEO to truly underpin a digital asset smart economy, they need trust protocols to facilitate the transition of enterprises to blockchain. Many question why Ontology needs their own blockchain and can’t simply be a dApp built on NEO. I think that the answer is less about NEO’s limitations and more about the advantages that Ontology has by remaining autonomous.
+Not only does Ontology support more applications by connecting with multiple blockchains, but not every blockchain enterprise application will be a smart contract. Some might simply want to utilize Ontology’s business IT protocols and APIs. As a result, Ontology needs their own blockchain to provide their customers with more flexibility.
+TLDR: Ontology is the link between blockchain and business. Their parent company, Onchain is already well connected with Chinese enterprises and government. Ontology creates a range of advanced applications so that businesses can create private chains, maintain control over their information, interconnect with other private chains and the larger Ontology network, and connect into public chains like NEO.
+What Makes Ontology Unique?
+Instead of just listing out what features Ontology supports without any larger, holistic view, let’s focus on how a company would operate on the blockchain, and then discuss how Ontology supports this.
+
+Blockchain’s first hospital?
+I run a hospital. I want a configurable, permissioned blockchain that supports everything from health recordsand prescriptions, to patient identity and data analytics for research. I need digital identity services for my employees and patients. I need to be able to maintain control over documents and secure information, granting only doctor and patient access certain files. I need connectivity with other blockchains so that I can coordinate with other private health facilities, cooperate with research ventures, and bill insurance companies. I need to be able to handle invoices and billing, payments and salaries, all within the blockchain.
+Some of these requirements are standard across industries. Most companies will need invoice abilities and trust protocols. However, there also has to be a level of customizability specific to healthcare.
+Ontology’s genius is in their construction of a system that provides easy implementation and development of DLT solutions for a variety of industries.They provide the building blocks. The blocks, Ontology Common andOntology Custom, are described in their recently released Ecosystem White Paper. Ontology Common refers to the suite of deployable blockchain kits ubiquitous across applications. Every company will need digital identity support; thus, Ontology provides a premade digital identity kit. They refer to these kits as modules. In comparison, Ontology Custom refers to blockchain features that can still be easily deployed, but allow for more customizability. These are features such as governance, consensus models, and encryption specifications. Depending on the type of business, these will be different.These modules are like a kit of Legos. You can build virtually anything you’d like with a box full of Legos. Building with them is easy, actually producing the plastic brick is hard. Thus, Lego — or Ontology — produces the blocks; you get to build…and step on them in the middle of the night.
+
+A “Block-Chain”
+The Lego Blocks
+Ontology’s blocks, or modules come in several form.
+ONT ID:
+ONT ID is a verification services for people, businesses, corporations, and other legal entities, as well as physical objects like IoT devices and mobile phones. At all times, entities maintain control over their ID and are responsible for signing their private key to permit its use. Users can also grant management rights to others. In our hospital, every doctor, patient, and service provider would have an ID, as well as equipment within the hospital. All verified and secured with the blockchain.
+The Trust Trees:
+If you’re running a hospital, you need to be able to issue trust within your ecosystem. You need to verify your employees and other entities that you work with. This verifies that actors within the industry are who they say they are. Ontology provides two solutions:
+Centralized Trust Trees: One entity can apply for a certificate to be a trust anchor. The certificate is created when an entity registers and verifies their personal information on the blockchain. Once they’re an anchor, they can issue trust to others. The recipients can also issue trust to others, but it’s all traceable back to the original anchor. This creates a tree-like structure where originating from the anchor are branches of entities entrusting others. This model would work well for an entity like a hospital.
+Decentralized Trust Trees: Unlike the above where a centralized entity issues trust and provides the credibility for the whole tree, this model allows for trust and reputation to instead be based on how relevant you are within the network. The more authentication you receive from others, the more credibility you will have.
+
+The Tree of Trust
+These entities — people or organizations — can issue verifiable claims.Verifiable claims are simply attributes about other entities. Imagine a school issuing transcripts. Verifiable claims can be customized, so the school can define the transcript’s validity period, set an automatic expiration date, and determine who can see said claim.
+Using zk-Snarks — Zero Knowledge Proofs (proving you have information without revealing said info), claims can also be verified without being made public. Perhaps you want to prove that you are in fact over 18, without publicizing other private details like your address or birthday. Today, you do this every time you show your ID. With Ontology’s Zero Knowledge Proofs, the network can confirm that you are 18-years-old without you ever disclosing additional details.
+By connecting claims to entities and integrating external identity information, Ontology ensures that businesses have a large amount of flexibility. Identity on Ontology isn’t just a static digital ID, but is comprehensive and constantly evolving.
+Other Modules:
+Ontology supports a variety of other customizable blocks. Among these are modules for security, digital copyright, encryption, and decentralized computation. Ontology supports modules for the issuance and management of verifiable claims, and modules supporting scaling solutions such as sharding and off-chain solutions.
+TLDR: Through digital identity, trust issuance models, and anonymous information capabilities, Ontology enables a range of enterprise applications.
+The Nitty Gritty
+A project is nothing if the technology and protocols don’t support the vision. If you walk the walk you need to talk the talk.
+Consensus
+How a network comes to consensus is enormously important. It influences factors such as security, reliability, efficiency, and speed. Ontology uses a Delegated Byzantine Fault Tolerance (dBFT) similar to NEO; they’ve dubbed their specific version Ontorand Consensus Engine (OCE).
+dBFT is a modified version of Proof of Stake (PoS). You can read here moreabout the difference between PoS, used by NEO and more recent blockchain protocols, and Proof of Work (PoW), used by Bitcoin and Ethereum.
+
+Byzantine Fault Tolerance attempts to solve the Byzantine General’s Problem
+dBFT (Delegated Byzantine Fault Tolerance) sounds like a term you’d see on your AP History Test. The simplest explanation of Byzantine Fault Tolerance is the issue with how to get everyone on the network to be honest and work together — because one bad apple could ruin everything.
+I imagine dBFT as working similar to how the U.S. Senate works (and if that analogy made you want to just give up on DLT entirely, I understand, but hold on…keep reading). If every person in America — all 323.1 million — was allowed to directly participate in the governmental decision making process, it would be catastrophic. It would be brutally slow as millions competed for the microphone, all shouting their opinion and arguing with each other. Making decisions would also be agonizingly slow. So instead, everyone in the country gets a vote. And with this vote, they can elect their representatives, someone to speak for them. This system directly reflects dBFT governance. Instead of everyone participating in the validating process — which can be incredibly limiting in terms of transaction speed — those who hold ONT tokens can vote for delegates. These delegates maintain the network for everyone.
+Ontology will also provide customizable consensus mechanisms so as to provide users with more flexibility such as PoW and traditional PoS models.
+“Ontology will at first be based on the NEO-like dBFT model, however, Ontology will provide different consensus algorithms such as POW, POS, dBFT, OCE, and so on. In addition, organizations can choose their preferred consensus nodes to run their own ONTX network and use chain interoperability to interact with entire Ontology network” — Jun Li
+Smart Contracts
+Smart contracts, or Smaht Contracts (like Bostonian dad would say), are the foundation of any blockchain. Ontology runs the NEO Virtual Machine.Virtual Machines (VMs) are simply the programmed machines that translate code into action. When a command is written on Ethereum inSolidity, the Ethereum virtual machine translates that code into action: smart contracts. Virtual machines are not compatible across platforms. For two chains to communicate with each other, they must run each respective virtual machine. Only then can foreign code be read on both blockchains.
+Because Ontology runs the NEO Virtual Machine, Ontology’s chain will be able to interact and understand NEO’s data and smart contracts. This enables the interoperability that forms the foundation of Ontology’s network. I expect Ontology to continue implementing other VMs in the future.
+Other Relevant Details
+HydraDAO — An Ontology module that acts as a foundation for developing Decentralized Autonomous Organizations. This module provides support for smart contracts, new governance models, and big data management.
+Distributed Data Exchange Protocol — Ontology provides a framework for the exchange of data between parties. By utilizing identity and support for data laws and regulations, companies can easily and safely transact data.
+The Ontology Token Economics
+The Ontology Token: ONT
+Total Supply: 1 Billion
+Marketcap: Pre ICO — thus unknown
+Token Distribution: Ontology is not hosting an ICO. Jun Li quoted ICO regulation as the primary reason; “Token sale regulation (and for that matter crypto and blockchain regulation in general) is in its early stages worldwide. We didn’t want having a token sale to affect possible future partnership opportunities anywhere.”
+Currently, only community members who contribute extensively to Ontology will be able to receive an allocation. In addition, everyone who signed up early on Ontology’s website will receive a free 1,000 airdropped tokens.
+In addition to the regulatory concerns around an ICO, I think Ontology really wants to facilitate community involvement. The Ecosystem White Paper really highlights their dedication to encouraging collective collaboration and I think that this fundraising model supports that vision.
+RoadMap and upcoming developments
+Ontology recently released their Ecosystem White Paper. Currently, Ontology also has their Technical and Introductory White Paper. At some point during the remainder of Q1, 2018, Ontology will also release their roadmap, Governance White Paper, and will introduce their TestNet on G
+The Team
+In terms of numbers, Ontology could likely field an entire football team. The team is spearheaded by founder Jun Li, Senior Blockchain Technology Professional, Honglei Cong, and Ning Hu, Senior Protocol Architect.
+Jun Li: With a background in computer science and engineering, he has a wealth of experience in technical development and Fintech.
+Honglei Cong: Cong has experience in distributed systems and decentralized consensus algorithm design. He has work experience at Cisco and EMC, and has designed blockchain architecture design for large business groups. He led a team that won won second place in Hyperledger’s Asia Hackathon.
+Ning Hu: Hu worked on Project Halo, a Paul Allen project. With a background in Semantic Web development, Hu has worked on projects regarding digitization of government affairs, gaming platforms, and media streaming.
+Ontology also boasts a development team of over 20 engineers.
+Concerns and considerations
+My biggest red flags revolve around the difficulty of implementing Ontology’s vision. It’s a project of enormous scale and will surely encounter technical difficulties and obstacles. However, with support from NEO and backing from Onchain, I think Ontology’s experienced development team is in a strong position to deliver.
+In addition, it will be important to watch how Ontology succeeds in competing with emerging DLT projects such as EOS and Hashgraph.
+
+For me, it’s a question of when, not if, Google enters the blockchain space
+Another concern is if companies like Google were to begin offering Blockchain as a Service (BaaS) for businesses. With their infrastructure and money, these companies would be difficult competition in this space. It is possible that Ontology could cooperate with Google, providing the modules for BaaS, but I think that would be unlikely.
+Summary
+Rome wasn’t built in a day and nor will our future decentralized economy. Blockchain enthusiasts promote the benefits of blockchain — decentralization, immutability, security — without considering the complicated barriers inhibiting corporate and institutional adoption. But with many of these institutions, blockchain won’t replace, it will integrate. Ontology is anintegration facilitator.
+With issuable trust, verifiable identity, and customizable modules, businesses on Ontology can construct blockchain solutions that adhere to their current framework. Ontology provides the trust for a decentralized ecosystem and without trust, there will be no adoption. As much as my libertarian idealism desires anonymity and for the mass decentralization of power, we must take one step at a time. And step one is supporting projects that work within current frameworks.
+If Ontology realizes its vision of a smart ecosystem and NEO fulfills its goal of creating a smart economy, we may finally see a network of businesses, institutions, schools and hospitals, all supported by distributed ledger technology. That’s a future I can get behind.
+FOLLOW me on Twitter: @noamlevenson
+
+Disclaimer: This is not investment advice, merely my opinion on the project. Do your own research. We did not receive payment from the Ontology team and this is in no way sponsored content. I hold no ONT Tokens.
+Hold down the clap button if you liked the content! It helps me gain exposure .
+Clap 50 times!
+I love getting questions or suggestions, so comment away!
+
+
+
+Thanks to Nir Kabessa.
+Blockchain
+Cryptocurrency
+Technology
+Decentralization
+Ontology
+One clap, two clap, three clap, forty?
+By clapping more or less, you can signal to us which stories really stand out.
+4.6K
+9
+  Follow
+
+Noam Levenson
+Writer, researcher, and investor in Distributed Ledger Technology — CEO and Co-founder of Eden Block. EdenBlock.com
+
